@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-eureka-client MicroService1EurekaClient
+    name: MicroService1EurekaClient
 server:
   port: 8085
 eureka:

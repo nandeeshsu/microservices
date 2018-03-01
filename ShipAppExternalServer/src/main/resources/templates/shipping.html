@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml" 
+		xmlns:th="http://www.thymeleaf.org">
+	<head>
+	</head>
+	<body>
+	<h1>Shipping details are:</h1>
+	<table border="1">
+		<tr>
+			<th><h1>Token ID</h1></th>
+			<th><h1>Ship Name</h1></th>
+			<th><h1>Charges</h1></th>
+		</tr>
+		<tr>
+		<td>	<h1 th:text="${status.shipId}"></h1></td>
+		<td>	<h1 th:text="${status.shipName}"></h1></td>
+		<td>	<h1 th:text="${status.shipCharges}"></h1></td>
+		</tr>
+	</table>
+	
+	</body>
+</html>
