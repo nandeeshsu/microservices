@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-eureka-client MicroService1EurekaClient
+server:
+  port: 8085
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+      
